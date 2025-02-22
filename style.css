@@ -1,0 +1,84 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Seção de Introdução */
+.intro {
+    background-color: #3f5976;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+/* Seção de Formulário */
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow:
+  -1em 0 0.4em rgb(195, 184, 181);
+    margin-top: -40px;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #444;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: green;
+    text-align: center;
+}

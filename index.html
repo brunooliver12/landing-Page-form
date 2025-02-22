@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Seção de Introdução -->
+    <section class="intro">
+        <div class="container">
+            <h1>Bem-vindo à nossa Página!</h1>
+            <p>Estamos felizes em tê-lo aqui. Explore nossos produtos e entre em contato conosco.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Formulário -->
+    <section class="contact-form">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="form" onsubmit="return handleSubmit(event)">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="responseMessage"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
